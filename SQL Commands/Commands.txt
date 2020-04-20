@@ -1,0 +1,32 @@
+Please execute following queries in MYSQL:
+
+
+CREATE DATABASE digirail;
+USE digirail;
+Create table login_digirail(S_no integer PRIMARY KEY,
+	Username varchar(30),
+	password varchar(30),
+        email varchar(30),
+        phone varchar(10));
+Create table staff_digirail(S_no integer PRIMARY KEY,
+        Username varchar(30),
+        password varchar(30));
+
+insert into staff_digirail values(1,"AnyName1","1276");
+insert into staff_digirail values(2,"AryanKashyap","2022");
+insert into staff_digirail values(3,"AnyName2","3213");
+
+create table seats_trains(train varchar(30),
+        category varchar(30),
+        quantity integer);
+insert into seats_trains values("RAJDHANI EXPRESS","CLASS A",10);
+insert into seats_trains values("RAJDHANI EXPRESS","BUSINESS",10);
+insert into seats_trains values("RAJDHANI EXPRESS","ECONOMY",10);
+
+insert into seats_trains values("SAMJHAUTA EXPRESS","CLASS A",10);
+insert into seats_trains values("SAMJHAUTA EXPRESS","BUSINESS",10);
+insert into seats_trains values("SAMJHAUTA EXPRESS","ECONOMY",10);
+
+insert into seats_trains values("SHATABDI EXPRESS","CLASS A",10);
+insert into seats_trains values("SHATABDI EXPRESS","BUSINESS",10);
+insert into seats_trains values("SHATABDI EXPRESS","ECONOMY",10);
