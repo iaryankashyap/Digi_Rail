@@ -1,4 +1,4 @@
-# Digi_Rail
+# Digital Railway Reservation System
 A demo railway reservation system based on Python-MySQL interface.
 
  
