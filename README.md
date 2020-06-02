@@ -8,6 +8,14 @@ This is a demo railway reservation system which can be modified a bit to fulfill
 
 > MAKE SURE YOU HAVE "mysql-python-connector" INSTALLED IN YOUR IDLE.
 
+To install use:
+
+	python -m pip install mysql-connector
+
+or,
+
+	pip install mysql-connector
+
 <h3>System Requirements:</h3>
 
 The minimum system requirements for using the application are:
